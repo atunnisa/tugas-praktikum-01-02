@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <header style="background-color: rgb(230, 230, 230);">
+        <nav style="display: flex; justify-content: space-between; align-items: center; width: 95%; margin: 0 auto; padding: 30px 0;">
+            <div style="display: flex; align-items: center;">
+                <h2 style="margin-right: 50px;">Site name</h2>
+                <ul style="display: flex; align-items: center; list-style: none; padding: 0;">
+                    <li><a href="#" style="margin: 0 20px;">Category 1 </a>|</li>
+                    <li><a href="#" style="margin: 0 20px;">Category 2 </a>|</li>
+                    <li><a href="#" style="margin: 0 20px;">Category 3 </a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#" style="text-decoration: none; color: black;"><b>Cart (1)</b></a>
+            </div>
+        </nav>
+    </header>
+    <table style="width: 30%; float: right;">
+        <tr>
+            <td colspan="2"> <b>Summary (1 item)</b></td>
+            
+        </tr>
+        <tr>
+            <td>Subtotal</td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>Shipping</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Est. Taxes</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td colspan="2"><hr></td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button style="background-color: navy; color: white; width: 100%;">Checkout</button>
+            </td>
+        </tr>
+    </table>
+    <table style="width: 70%;">
+        <tr>
+            <td colspan="3"><h3>Your Cart</h3></td>
+        </tr>
+        <tr>
+            <td colspan="3"><hr></td>
+        </tr>
+        <tr>
+            <td>Item</td>
+            <td>Price</td>
+            <td>Quantity</td>
+        </tr>
+        <tr>
+            <td>
+                <figure style="display: flex; align-items: center; margin: 15px 0;">
+                    <img src="foto_obat.jpg" width="100" alt="foto obat">
+                    <div style="margin-left: 20px;">
+                        <p style="margin: 15px 0;">T-Shirt</p>
+                        <p style="margin: 15px 0;">Size Small</p>
+                    </div>
+                </figure>
+            </td>
+            <td><b>$20.00</b></td>
+            <td>
+                <select name="quantity" id="quantity" style="width: 50%;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><hr></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Subtotal: <b>$20.00</b></td>
+        </tr>
+        <tr>
+            <td colspan="3"><hr></td>
+        </tr>
+    </table>
+    <hr style="margin: 0; padding: 0;">
+    <footer style="display: flex; justify-content: space-between; width: 95%; margin: 0 auto; padding: 20px 0;">
+        <nav style="display: flex; align-items: center;">
+            <h4 style="margin-right: 30px;">Site name</h4>
+            <ul style="display: flex; align-items: center; list-style: none; padding: 0;">
+                <li><a href="#" style="margin: 0 10px;">Category X </a>|</li>
+                <li><a href="#" style="margin: 0 10px;">Category Y </a>|</li>
+                <li><a href="#" style="margin: 0 10px;">Category Z </a></li>
+            </ul>
+        </nav>
+        <nav>
+            <p style="margin: 2px 0;">Stay in touch! Join our <b>Newsletter</b></p>
+            <div>
+                <input type="email" placeholder="Enter Email" style="padding: 5px;">
+                <button style="padding: 5px; background-color: grey; font-weight: bold; color: white;">Subscribe</button>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
